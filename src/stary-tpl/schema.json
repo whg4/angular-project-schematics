@@ -1,0 +1,31 @@
+{
+    "properties": {
+        "project": {
+            "type": "string",
+            "description": "Name of the project to update",
+            "$default": {
+                "$source": "projectName"
+            }
+        },
+        "useNoc": {
+            "type": "boolean",
+            "x-prompt": "Would you like to use noc in the project?"
+        },
+        "useLogin": {
+            "type": "boolean",
+            "x-prompt": "Would you like to use login in the project?"
+        },
+        "useAuth": {
+            "type": "boolean",
+            "x-prompt": "Would you like to use auth in the project?"
+        },
+        "useI18n": {
+            "type": "boolean",
+            "x-prompt": "Would you like to use localize in the project?"
+        },
+        "useUtils": {
+            "type": "boolean",
+            "x-prompt": "Would you like to use utils in the project?"
+        }
+    }
+}

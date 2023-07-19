@@ -1,0 +1,2 @@
+FROM 244190738639.dkr.ecr.us-east-1.amazonaws.com/system/alpine:v3.12.0
+COPY ./dist /home/q/system/opportunity-platform-front/dist

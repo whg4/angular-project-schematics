@@ -1,0 +1,11 @@
+@Library('jenkinslib') _
+
+build_js_with_cache {
+    projectName = 'stary-tpl'
+    imageRepo = 'stary-tpl/stary-tpl'
+    testBuildShell = 'pnpm install && npm run build:test'
+    preBuildShell = 'pnpm install && npm run build:pre'
+    releaseBuildShell = 'pnpm install && npm run build'
+    version = 'v0.0'
+    nodeVersion = 'v16.18.2'
+}

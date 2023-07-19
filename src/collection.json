@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "stary-tpl": {
+      "description": "A blank schematic.",
+      "factory": "./stary-tpl/index#staryAppTemplate",
+      "schema": "./stary-tpl/schema.json"
+    }
+  }
+}
